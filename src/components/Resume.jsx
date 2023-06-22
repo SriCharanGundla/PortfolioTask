@@ -3,7 +3,7 @@ import "../main.css";
 function Resume() {
   const techDiv = {
     height: "fit-content",
-    minHeight: "120px",
+    minHeight: "140px",
     width: "300px",
     border: "1px solid gray",
     padding: "10px 10px 0px 10px",
@@ -128,13 +128,13 @@ function Resume() {
         <h3 className="text-light text-center" style={{ fontWeight: "300" }}>
           Technical Competencies
         </h3>
-        <div className="d-flex justify-content-around align-items-center w-75 p-3">
+        <div className="d-flex justify-content-around align-items-stretch w-75 p-3">
           <div style={techDiv}>
             <h5 className="text-light" style={{ fontWeight: "300" }}>
               Languages
             </h5>
             <p className="text-left" style={{ color: "#9f9f9f" }}>
-              Java, HTML, CSS, JavaScript, MySQL, Solidity, Python
+              Java, HTML, CSS, Sass, JavaScript, JQuery, MySQL, Solidity, Python
             </p>
           </div>
           <div style={techDiv}>
@@ -142,7 +142,8 @@ function Resume() {
               Development
             </h5>
             <p className="text-left" style={{ color: "#9f9f9f" }}>
-              Linux, Windows, Virtual Machines, React, Bootstrap, NumPy, Pandas
+              Linux, Windows, Virtual Machines, React.js, Node.js, Bootstrap,
+              MongoDB, NumPy, Pandas
             </p>
           </div>
         </div>
@@ -153,7 +154,7 @@ function Resume() {
             </h5>
             <p className="text-left" style={{ color: "#9f9f9f" }}>
               GitHub, Jupyter Notebooks, Kanban, Presentation Skills, Team
-              Leader/Management, Team Communication
+              Leader / Management, Team Communication
             </p>
           </div>
           <div style={techDiv}>
