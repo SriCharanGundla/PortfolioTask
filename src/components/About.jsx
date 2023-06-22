@@ -12,7 +12,7 @@ function About() {
 
   return (
     <div
-      id="about"
+      id="/about"
       className="d-flex flex-column justify-content-center align-items-center bg-dark w-100 gap-4"
       style={{ minHeight: "100vh", width: "100vw" }}
     >

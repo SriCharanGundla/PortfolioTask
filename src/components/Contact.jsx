@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div
-      id="contact"
+      id="/contact"
       className="d-flex flex-column justify-content-center align-items-center bg-light p-5"
     >
       <i

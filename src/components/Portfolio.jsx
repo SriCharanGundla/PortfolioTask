@@ -20,7 +20,7 @@ function Portfolio() {
   };
   return (
     <div
-      id="portfolio"
+      id="/portfolio"
       className="d-flex flex-column justify-content-center align-items-center px-3 mb-5 py-3"
     >
       <h3

@@ -13,7 +13,7 @@ function Resume() {
 
   return (
     <div
-      id="resume"
+      id="/resume"
       className="lightbox-content wrapper d-flex flex-column justify-content-around align-items-around px-5 pt-5 mb-5"
     >
       <h2

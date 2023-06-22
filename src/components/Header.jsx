@@ -36,7 +36,7 @@ function Header() {
           <ul class="navbar-nav">
             <li class="nav-item">
               <a
-                href="/#home"
+                href="#/home"
                 class="nav-link link-light"
                 onMouseEnter={onEnter}
                 onMouseLeave={onLeave}
@@ -47,7 +47,7 @@ function Header() {
             </li>
             <li class="nav-item">
               <a
-                href="/#about"
+                href="#/about"
                 class="nav-link link-light"
                 onMouseEnter={onEnter}
                 onMouseLeave={onLeave}
@@ -58,7 +58,7 @@ function Header() {
             </li>
             <li class="nav-item">
               <a
-                href="/#resume"
+                href="#/resume"
                 class="nav-link link-light"
                 onMouseEnter={onEnter}
                 onMouseLeave={onLeave}
@@ -69,7 +69,7 @@ function Header() {
             </li>
             <li class="nav-item">
               <a
-                href="/#portfolio"
+                href="#/portfolio"
                 class="nav-link link-light"
                 onMouseEnter={onEnter}
                 onMouseLeave={onLeave}
@@ -80,7 +80,7 @@ function Header() {
             </li>
             <li class="nav-item">
               <a
-                href="/#contact"
+                href="#/contact"
                 class="nav-link link-light"
                 onMouseEnter={onEnter}
                 onMouseLeave={onLeave}
